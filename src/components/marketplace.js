@@ -48,7 +48,7 @@ function marketplace() {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto">
                                 <Nav.Link>
-                                    <a rel="noopener noreferrer" target="_blank" href="">
+                                    <a rel="noopener noreferrer" target="_blank" href="#">
                                         <img
                                             src={connectWallet}
                                             width="150"
@@ -102,7 +102,7 @@ function marketplace() {
                 <Row className='mb-5'>
                     <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
-                            <a rel="noopener noreferrer" href="/assets/1">
+                            <a rel="noopener noreferrer" href="/assets">
                                 <img className='nft-img'
                                     src={nft}
                                     width="274"
