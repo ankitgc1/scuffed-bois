@@ -21,7 +21,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/nft/1" element={<IndividualNFT />} />
+        <Route path="/assets/1" element={<IndividualNFT />} />
       </Routes>
       <Footer />
     </Router>
