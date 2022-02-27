@@ -114,7 +114,7 @@ function App() {
           </Row>
 
           <Row className='mt-5 pb-5 d-flex justify-content-center text-center'>
-          <Col>
+          {/* <Col>
               <a rel="noopener noreferrer" target="_blank" href="">
                   <img className='social'
                       src={opensea}
@@ -124,7 +124,7 @@ function App() {
                       alt="whitepaper"
                   />
               </a>
-            </Col>
+            </Col> */}
             <Col>
               <a rel="noopener noreferrer" target="_blank" href="">
                   <img className='social'

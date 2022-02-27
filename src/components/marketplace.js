@@ -11,6 +11,9 @@ import heart from '../images/heart.png';
 import buyNow from '../images/buyNow.png';
 import loadMore from '../images/loadMore.png';
 
+
+
+
 function marketplace() {
     const styles = {
         // backgroundColor: '#191B1F',
@@ -95,11 +98,11 @@ function marketplace() {
                 </Container>
             </Container>
 
-            <Container fluid>
+            <Container>
                 <Row className='mb-5'>
-                    <Col className='d-flex justify-content-center'>
+                    <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
-                            <a rel="noopener noreferrer" target="_blank" href="/nft">
+                            <a rel="noopener noreferrer" href="/nft">
                                 <img className='nft-img'
                                     src={nft}
                                     width="274"
@@ -142,7 +145,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                    <Col className='d-flex justify-content-center'>
+                    <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -185,7 +188,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                    <Col className='d-flex justify-content-center'>
+                    <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -228,182 +231,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                    <Col className='d-flex justify-content-center'>
-                        <div className='nft-box'>
-                            <img className='nft-img'
-                                src={nft}
-                                width="274"
-                                height="274"
-                                // className="d-inline-block align-top"
-                                alt="Auction House"
-                            />
-                            <div className='mt-3'>
-                                 <div className='on-sale'>#Sale</div>
-                                <div className='nft-name'>
-                                    Hoodboi #20
-                                    <span className='nft-likes-number'>
-                                    32
-                                    </span>
-                                    <span className='nft-likes'>
-                                        <img className='nft-img'
-                                            src={heart}
-                                            width="22"
-                                            height="22"
-                                            // className="d-inline-block align-top"
-                                            alt="Likes"
-                                        />
-                                    </span>
-                                </div>
-                            </div>
-                            <div className='mt-5'>
-                                <span>
-                                    <img className='nft-img'
-                                        src={buyNow}
-                                        width="80"
-                                        height="44"
-                                        // className="d-inline-block align-top"
-                                        alt="Likes"
-                                    />
-                                </span>
-                                <span className='price'>
-                                    HBAR 200
-                                </span>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-
-                <Row className='mb-5'>
-                   <Col className='d-flex justify-content-center'>
-                        <div className='nft-box'>
-                            <img className='nft-img'
-                                src={nft}
-                                width="274"
-                                height="274"
-                                // className="d-inline-block align-top"
-                                alt="Auction House"
-                            />
-                            <div className='mt-3'>
-                                 <div className='on-sale'>#Sale</div>
-                                <div className='nft-name'>
-                                    Hoodboi #20
-                                    <span className='nft-likes-number'>
-                                    32
-                                    </span>
-                                    <span className='nft-likes'>
-                                        <img className='nft-img'
-                                            src={heart}
-                                            width="22"
-                                            height="22"
-                                            // className="d-inline-block align-top"
-                                            alt="Likes"
-                                        />
-                                    </span>
-                                </div>
-                            </div>
-                            <div className='mt-5'>
-                                <span>
-                                    <img className='nft-img'
-                                        src={buyNow}
-                                        width="80"
-                                        height="44"
-                                        // className="d-inline-block align-top"
-                                        alt="Likes"
-                                    />
-                                </span>
-                                <span className='price'>
-                                    HBAR 200
-                                </span>
-                            </div>
-                        </div>
-                    </Col>
-                   <Col className='d-flex justify-content-center'>
-                        <div className='nft-box'>
-                            <img className='nft-img'
-                                src={nft}
-                                width="274"
-                                height="274"
-                                // className="d-inline-block align-top"
-                                alt="Auction House"
-                            />
-                            <div className='mt-3'>
-                                 <div className='on-sale'>#Sale</div>
-                                <div className='nft-name'>
-                                    Hoodboi #20
-                                    <span className='nft-likes-number'>
-                                    32
-                                    </span>
-                                    <span className='nft-likes'>
-                                        <img className='nft-img'
-                                            src={heart}
-                                            width="22"
-                                            height="22"
-                                            // className="d-inline-block align-top"
-                                            alt="Likes"
-                                        />
-                                    </span>
-                                </div>
-                            </div>
-                            <div className='mt-5'>
-                                <span>
-                                    <img className='nft-img'
-                                        src={buyNow}
-                                        width="80"
-                                        height="44"
-                                        // className="d-inline-block align-top"
-                                        alt="Likes"
-                                    />
-                                </span>
-                                <span className='price'>
-                                    HBAR 200
-                                </span>
-                            </div>
-                        </div>
-                    </Col>
-                   <Col className='d-flex justify-content-center'>
-                        <div className='nft-box'>
-                            <img className='nft-img'
-                                src={nft}
-                                width="274"
-                                height="274"
-                                // className="d-inline-block align-top"
-                                alt="Auction House"
-                            />
-                            <div className='mt-3'>
-                                 <div className='on-sale'>#Sale</div>
-                                <div className='nft-name'>
-                                    Hoodboi #20
-                                    <span className='nft-likes-number'>
-                                    32
-                                    </span>
-                                    <span className='nft-likes'>
-                                        <img className='nft-img'
-                                            src={heart}
-                                            width="22"
-                                            height="22"
-                                            // className="d-inline-block align-top"
-                                            alt="Likes"
-                                        />
-                                    </span>
-                                </div>
-                            </div>
-                            <div className='mt-5'>
-                                <span>
-                                    <img className='nft-img'
-                                        src={buyNow}
-                                        width="80"
-                                        height="44"
-                                        // className="d-inline-block align-top"
-                                        alt="Likes"
-                                    />
-                                </span>
-                                <span className='price'>
-                                    HBAR 200
-                                </span>
-                            </div>
-                        </div>
-                    </Col>
-                   <Col className='d-flex justify-content-center'>
+                    <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -449,7 +277,7 @@ function marketplace() {
                 </Row>
 
                 <Row className='mb-5'>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -492,7 +320,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -535,7 +363,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -578,7 +406,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -624,7 +452,7 @@ function marketplace() {
                 </Row>
 
                 <Row className='mb-5'>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -667,7 +495,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -710,7 +538,7 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
@@ -753,7 +581,182 @@ function marketplace() {
                             </div>
                         </div>
                     </Col>
-                   <Col className='d-flex justify-content-center'>
+                   <Col md={3} className='d-flex justify-content-center'>
+                        <div className='nft-box'>
+                            <img className='nft-img'
+                                src={nft}
+                                width="274"
+                                height="274"
+                                // className="d-inline-block align-top"
+                                alt="Auction House"
+                            />
+                            <div className='mt-3'>
+                                 <div className='on-sale'>#Sale</div>
+                                <div className='nft-name'>
+                                    Hoodboi #20
+                                    <span className='nft-likes-number'>
+                                    32
+                                    </span>
+                                    <span className='nft-likes'>
+                                        <img className='nft-img'
+                                            src={heart}
+                                            width="22"
+                                            height="22"
+                                            // className="d-inline-block align-top"
+                                            alt="Likes"
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                            <div className='mt-5'>
+                                <span>
+                                    <img className='nft-img'
+                                        src={buyNow}
+                                        width="80"
+                                        height="44"
+                                        // className="d-inline-block align-top"
+                                        alt="Likes"
+                                    />
+                                </span>
+                                <span className='price'>
+                                    HBAR 200
+                                </span>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row className='mb-5'>
+                   <Col md={3} className='d-flex justify-content-center'>
+                        <div className='nft-box'>
+                            <img className='nft-img'
+                                src={nft}
+                                width="274"
+                                height="274"
+                                // className="d-inline-block align-top"
+                                alt="Auction House"
+                            />
+                            <div className='mt-3'>
+                                 <div className='on-sale'>#Sale</div>
+                                <div className='nft-name'>
+                                    Hoodboi #20
+                                    <span className='nft-likes-number'>
+                                    32
+                                    </span>
+                                    <span className='nft-likes'>
+                                        <img className='nft-img'
+                                            src={heart}
+                                            width="22"
+                                            height="22"
+                                            // className="d-inline-block align-top"
+                                            alt="Likes"
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                            <div className='mt-5'>
+                                <span>
+                                    <img className='nft-img'
+                                        src={buyNow}
+                                        width="80"
+                                        height="44"
+                                        // className="d-inline-block align-top"
+                                        alt="Likes"
+                                    />
+                                </span>
+                                <span className='price'>
+                                    HBAR 200
+                                </span>
+                            </div>
+                        </div>
+                    </Col>
+                   <Col md={3} className='d-flex justify-content-center'>
+                        <div className='nft-box'>
+                            <img className='nft-img'
+                                src={nft}
+                                width="274"
+                                height="274"
+                                // className="d-inline-block align-top"
+                                alt="Auction House"
+                            />
+                            <div className='mt-3'>
+                                 <div className='on-sale'>#Sale</div>
+                                <div className='nft-name'>
+                                    Hoodboi #20
+                                    <span className='nft-likes-number'>
+                                    32
+                                    </span>
+                                    <span className='nft-likes'>
+                                        <img className='nft-img'
+                                            src={heart}
+                                            width="22"
+                                            height="22"
+                                            // className="d-inline-block align-top"
+                                            alt="Likes"
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                            <div className='mt-5'>
+                                <span>
+                                    <img className='nft-img'
+                                        src={buyNow}
+                                        width="80"
+                                        height="44"
+                                        // className="d-inline-block align-top"
+                                        alt="Likes"
+                                    />
+                                </span>
+                                <span className='price'>
+                                    HBAR 200
+                                </span>
+                            </div>
+                        </div>
+                    </Col>
+                   <Col md={3} className='d-flex justify-content-center'>
+                        <div className='nft-box'>
+                            <img className='nft-img'
+                                src={nft}
+                                width="274"
+                                height="274"
+                                // className="d-inline-block align-top"
+                                alt="Auction House"
+                            />
+                            <div className='mt-3'>
+                                 <div className='on-sale'>#Sale</div>
+                                <div className='nft-name'>
+                                    Hoodboi #20
+                                    <span className='nft-likes-number'>
+                                    32
+                                    </span>
+                                    <span className='nft-likes'>
+                                        <img className='nft-img'
+                                            src={heart}
+                                            width="22"
+                                            height="22"
+                                            // className="d-inline-block align-top"
+                                            alt="Likes"
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                            <div className='mt-5'>
+                                <span>
+                                    <img className='nft-img'
+                                        src={buyNow}
+                                        width="80"
+                                        height="44"
+                                        // className="d-inline-block align-top"
+                                        alt="Likes"
+                                    />
+                                </span>
+                                <span className='price'>
+                                    HBAR 200
+                                </span>
+                            </div>
+                        </div>
+                    </Col>
+                   <Col md={3} className='d-flex justify-content-center'>
                         <div className='nft-box'>
                             <img className='nft-img'
                                 src={nft}
