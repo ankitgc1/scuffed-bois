@@ -20,8 +20,8 @@ ReactDOM.render(
       {/* <Navbar /> */}
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/assets/1" element={<IndividualNFT />} />
+        <Route exact path="/marketplace" element={<Marketplace />} />
+        <Route exact path="/assets/1" element={<IndividualNFT />} />
       </Routes>
       <Footer />
     </Router>
